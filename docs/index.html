@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="assets/img/cover1.png" type="image/x-icon">
+</head>
+<body>
+    <img src="assets/img/cover1.png" alt="lemonade" class="background">
+    <audio src="assets/audio/beyonce.mp3" class="audio"></audio>
+    <div class="container">
+        <div class="box"></div>
+        <img src="assets/img/cover1.png" alt="lemonade-track" class="track-logo">
+        <img src="assets/svg/play.png" alt="play" onclick="playPause()" class="play pp">
+        <img src="assets/svg/backward.png" alt="back" onclick="nextSong()" class="back">
+        <img src="assets/svg/forward.png" alt="forward" onclick="nextSong()" class="forward">
+        <div class="artist-name">Beyonce</div>
+        <div class="song-name">Don't Hurt Yourself</div>
+        <input type="range" min="0" max="233" value="0" onchange="changeProgressBar()" class="song-progress">
+        <div class="track-now">0:00</div>
+        <div class="track-end"></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
