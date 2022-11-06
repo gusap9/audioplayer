@@ -1,1 +1,1 @@
-[# audioplayer_rsschool](https://gusap9.github.io/audioplayer_rsschool/)
+[gusap9.github.io/audioplayer_rsschool/](https://gusap9.github.io/audioplayer_rsschool/)
